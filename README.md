@@ -50,7 +50,13 @@ DMG로 설치한 AgentDeck이 이미 `응용 프로그램` 폴더에 있으면 A
 
 ### 업데이트
 
-Homebrew로 설치했다면 `brew upgrade --cask agentdeck`으로 받습니다. DMG로 설치했다면 새 DMG를 받아 `응용 프로그램` 폴더의 AgentDeck을 바꿉니다.
+Homebrew로 설치했다면:
+
+```sh
+brew upgrade --cask agentdeck
+```
+
+DMG로 설치했다면 새 DMG를 받아 `응용 프로그램` 폴더의 AgentDeck을 바꿉니다.
 
 ### Pre-release
 
@@ -106,7 +112,13 @@ To verify the download, compare `shasum -a 256 AgentDeck-<version>-apple-silicon
 
 ### Updates
 
-With Homebrew, run `brew upgrade --cask agentdeck`. With a DMG install, download the new DMG and replace AgentDeck in `Applications`.
+With Homebrew:
+
+```sh
+brew upgrade --cask agentdeck
+```
+
+With a DMG install, download the new DMG and replace AgentDeck in `Applications`.
 
 ### Pre-release
 
