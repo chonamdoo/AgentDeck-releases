@@ -1,0 +1,66 @@
+AgentDeck — third-party notices
+
+AgentDeck is Copyright 2026 chonamdoo and is licensed under the Apache License,
+Version 2.0 (see LICENSE). This covers the app, its source code, and the
+design kit including the app icon. Free for personal and commercial use.
+
+AgentDeck.app includes the following open-source software.
+
+-------------------------------------------------------------------------------
+SwiftTerm
+https://github.com/migueldeicaza/SwiftTerm
+Revision 4d5eeea89ed7c0fabffea9c8415cc392a6a06a31
+Vendored at spikes/terminal-engine/ThirdParty/SwiftTerm.
+AgentDeck patches native selection to preserve cell foreground colors and expose its copy-chip anchor,
+and routes copy, paste and OSC 52 through an injectable pasteboard. The changes are listed in
+spikes/terminal-engine/ThirdParty/swiftterm-agentdeck.patch.
+License: MIT
+-------------------------------------------------------------------------------
+
+Copyright (c) 2019-2026 Miguel de Icaza (https://github.com/migueldeicaza)
+Copyright (c) 2017-2019, The xterm.js authors (https://github.com/xtermjs/xterm.js)
+Copyright (c) 2014-2016, SourceLair Private Company (https://www.sourcelair.com)
+Copyright (c) 2012-2013, Christopher Jeffrey (https://github.com/chjj/)
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-------------------------------------------------------------------------------
+Simple Icons (sidebar agent logos)
+https://github.com/simple-icons/simple-icons
+License: CC0 1.0 Universal
+-------------------------------------------------------------------------------
+
+The Claude, OpenAI, Gemini, GitHub Copilot, Cursor, Cline, Qwen, Kimi, Mistral
+and OpenCode logo paths come from Simple Icons and are dedicated to the public
+domain under CC0 1.0. The pi and omp marks are those projects' own marks.
+Claude is a trademark of Anthropic, PBC and OpenAI is a trademark of OpenAI
+OpCo, LLC; every other logo is a trademark of its respective owner. The logos
+identify which agent runs in a pane and imply no endorsement.
+
+-------------------------------------------------------------------------------
+Not included: herdr
+https://github.com/herdrdev/herdr
+-------------------------------------------------------------------------------
+
+herdr is not part of AgentDeck and is not shipped inside AgentDeck.app or the DMG.
+AgentDeck runs a herdr already installed on the Mac, or, when asked, downloads
+the official herdr release from GitHub. herdr is licensed separately by its
+authors under the Apache License, Version 2.0:
+https://github.com/herdrdev/herdr/blob/master/LICENSE
