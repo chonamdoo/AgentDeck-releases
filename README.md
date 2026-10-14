@@ -14,7 +14,7 @@ AgentDeck은 [Herdr](https://herdr.dev)에서 돌고 있는 코딩 에이전트�
 ### 무엇을 할 수 있나요
 
 - **답을 기다리는 에이전트 찾기** — 프로젝트 탭과 왼쪽 목록에 입력 대기·실패·안 본 완료 수가 붙습니다. 목록의 각 줄에는 에이전트 로고, 작업 제목, 상태, 브랜치, 바뀐 파일 수가 보입니다. ⌘K로 에이전트·브랜치·작업을 찾습니다.
-- **에이전트 터미널에서 바로 작업** — 가운데 터미널에서 에이전트에 입력하고 질문·승인에 답합니다. pane을 최대 6개까지 나누고, pane 아래에 모델·추론 강도·브랜치·컨텍스트 사용률이 보입니다.
+- **에이전트 터미널에서 바로 작업** — 가운데 터미널에서 에이전트에 입력하고 질문·승인에 답합니다. 한 탭의 pane 한도는 설정 › 터미널·화면 › pane의 "최대 pane 수"에서 바꿉니다(기본 6개). 변경하면 바로 적용되고, 줄여도 이미 열린 pane은 닫지 않습니다. pane 아래에 모델·추론 강도·브랜치·컨텍스트 사용률이 보입니다.
 - **에이전트가 고치는 파일 따라가기** — 오른쪽 패널이 에이전트가 고친 파일을 모으고, 지금 고치는 파일에 "수정 중"을 붙입니다. 다른 에이전트가 다른 브랜치에서 같은 파일을 고치면 "겹침"으로 알려 줍니다.
 - **변경 확인하고 커밋하기** — 통합·나란히 diff로 보고, 파일마다 스테이지해서 그 에이전트의 worktree에 커밋합니다.
 - **사용량** — 상태 막대에 계정의 남은 사용량(5시간·주간)과 초기화 시각이 보입니다.
@@ -78,7 +78,7 @@ Pick an agent and see its terminal, its working folder and the files it changed 
 ### What it does
 
 - **Find the agents waiting on you** — project tabs and the sidebar count agents waiting for input, failed, or done but not yet seen. Each row shows the agent's logo, task title, state, branch and number of changed files. ⌘K searches agents, branches and tasks.
-- **Work in the agent's terminal** — type to the agent and answer its questions and approvals in the center terminal. Split up to six panes; each pane shows model, reasoning effort, branch and context usage underneath.
+- **Work in the agent's terminal** — type to the agent and answer its questions and approvals in the center terminal. Set the per-tab pane limit with “최대 pane 수” under Settings → 터미널·화면 → pane (default: 6). Changes apply immediately; lowering the limit keeps existing panes open. Each pane shows model, reasoning effort, branch and context usage underneath.
 - **Follow the files an agent edits** — the right panel collects the files the agent changed and marks the one it is editing now. When another agent edits the same file on another branch, it is marked as overlapping.
 - **Review and commit** — read changes as unified or side-by-side diffs, stage file by file, and commit to that agent's worktree.
 - **Usage** — the status bar shows each account's remaining usage (5-hour and weekly) and when it resets.
